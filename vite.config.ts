@@ -5,7 +5,7 @@ import { dirname, resolve } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: '/sidsphere/',
+  base: '/test/',
 
   server: {
     port: 5173,
